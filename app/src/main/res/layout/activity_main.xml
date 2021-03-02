@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="210dp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <EditText
+            android:id="@+id/name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="7dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="149dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="268dp"
+        android:text="Sur Name"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="268dp"
+            android:layout_marginRight="7dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="320dp"
+        android:text="Marks"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+        <EditText
+            android:id="@+id/marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="7dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="370dp"
+            android:text="ID"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="7dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नया"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="450dp"
+        android:padding="15dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दिखाए"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="अपडेट"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="निकाले"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="200dp"/>
+
+</RelativeLayout>
